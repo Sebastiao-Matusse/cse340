@@ -4,3 +4,44 @@
 *:after {
   box-sizing: border-box;
 }
+
+#top-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+}
+
+.siteName {
+  font-size: 2rem;
+}
+
+#top-header .siteName a,
+#top-header #tools a,
+.top-nav-ul a {
+  text-decoration: none;
+}
+
+.top-nav-ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  background-color: #080821;
+  padding: 0.5rem;
+}
+
+.top-nav-ul a {
+  color: white;
+}
+
+.upgrades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-area: ;
+}
+
+/* upgrades-color
+#02aee7 */
